@@ -4,6 +4,7 @@ https://github.com/phooky/PROM/tree/master/tools/eeprom_read but with Intel hex 
 I just added the intel hex output part.
 
 >Had errors dumping the one EPROM i updated this program for, so i'm unsure if this works 100% fine.
+
 update: adding a delay at the start to readByte() fixed the issue i had, took a 200us delay for my 27C512 to read correctly
 
 # Using (under GNU/Linux)
